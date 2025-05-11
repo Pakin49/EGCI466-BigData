@@ -15,8 +15,8 @@ Original file is located at
 ! pip install dnspython
 
 from pymongo.mongo_client import MongoClient
-#uri = "mongodb+srv://pakin-pan:4e7fbd5c@cluster0.ac197n1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-uri= "mongodb+srv://pakin-pan:4e7fbd5c@workshop-bakery.mxeepyw.mongodb.net/"
+#uri = "mongodb+srv://pakin-pan:<password>@cluster0.ac197n1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri= "mongodb+srv://pakin-pan:<password>@workshop-bakery.mxeepyw.mongodb.net/"
 # Create a new client and connect to the server
 client = MongoClient(uri)
 # Send a ping to confirm a successful connection
