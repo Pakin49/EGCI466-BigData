@@ -1,3 +1,0 @@
-Match (p:Person) - [ACTED_IN] - (Movie{title:"Sleepless in Seattle"})
-MATCH (p)-[r:ACTED_IN]-(m:Movie)
-return p,m,r
